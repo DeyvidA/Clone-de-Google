@@ -19,13 +19,28 @@ header nav{
     display: flex;
     justify-content: flex-end;
 }
-header .nav-right-section ul{
+header nav .nav-right-section{
     width: 250px;
     height: auto;
     display: flex;
     list-style: none;
+    align-items: center;
 }
-header .nav-right-section a{
+header nav .nav-right-section a{
     margin-right: 10px;
     color: black;
 }
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
